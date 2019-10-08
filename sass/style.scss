@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+$bcolor:#2D89E6;
+$fdisplay:flex;
+$cjustify:center;
+
+html,
+body,
+.header-contain {
+    width: 100%;
+
+}
+
+body {
+    margin: 0;
+
+
+    .header-contain {
+        display: $fdisplay;
+        justify-content: $cjustify;
+        background-color: $bcolor;
+
+
+    }
+
+    h1 {
+        width: auto;
+        color: white;
+    }
+
+    .contain {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        height: 100%;
+
+
+
+    }
+
+    .left-part {
+        justify-content: flex-start;
+        margin-left: 100px;
+        margin-top: 100px;
+        height: 660px;
+        width: 527px;
+        border-radius: 5%;
+        
+        border: 1px solid black;
+
+    }
+}

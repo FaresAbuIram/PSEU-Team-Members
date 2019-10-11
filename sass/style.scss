@@ -41,15 +41,24 @@ body {
 
 
     }
-    .right-part {
-        justify-content: flex-end;
+    .right-part{
+        justify-content: flex-start;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-content: center;
         margin-left: 30px;
         height:850px;
         width: 1088px;
         background-color: #F6F6F6;
+        
+    }
+    .bar {
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+       
+       
        
     }
     
@@ -119,6 +128,68 @@ body {
         border-radius: 10px;
         padding-left: 10px;
     }
+    .short-story{
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-left: 20px;;
+     display: none;
+        
+        
+    }
+    .short-info{
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-left: 30px;;
+        
+        
+    }
+    .name-of-user{
+        color: #000;
+        margin-left: 5px;;
+        
+    }
+    .info-specialization{
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        color: #2D89E6;
+        font-size: 30px;;
+        margin-top: -50px;
+    }
+    p{
+        margin-top: -20px;
+        width: 900px;
+        height: 35px;;
+        word-wrap: break-word;
+        overflow: hidden;
+       
+    }
+    .slash{
+        margin-top: 42px;;
+    }
+    .icon{
+        margin-top: 70px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        width: 60px;
+        height: 60px;
+        background-color: #FF4A4A;
+        border-radius: 50%;;
+    }
+    .line-inside-icon{
+       margin-top: 22px;
+        width: 50%;
+        height: 10px;;
+       background-color: #FFFFFF;
+        
+    }
     .left-part {
         justify-content: flex-start;
         display: flex;
@@ -184,6 +255,9 @@ body {
         font-size: 25px;
         color: white;
         
+    }
+    .short-story{
+
     }
     
 }

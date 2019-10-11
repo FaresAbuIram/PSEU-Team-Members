@@ -17,12 +17,10 @@ function setInformation() {
 
 
     save(info);
- 
-    
-}
 
-    
- 
+
+}
+arr.push(get());
 function get() {
     const fromStorage = localStorage.getItem('arrlist');
     return fromStorage ? JSON.parse(fromStorage) : [];

@@ -16,31 +16,31 @@
     </header>
     <div class="contain">
         <div class="left-part">
-            <form>
+            <form id>
 
                 <h3>Add new member</h3>
-                <input class="box1" placeholder="Name" type="name" required>
-                <input class="box2" placeholder="Email" type="email" required>
-                <select class="Major" required>
+                <input class="box1" id ="userName" placeholder="Name"  required>
+                <input class="box2" id ="userEmail" placeholder="Email" type="email" required>
+                <select class="Major" id ="userMajor" required>
                     <option value="" disabled selected>Major</option>
-                    <option>Information Technology</option>
-                    <option>Computer System Engineering</option>
-                    <option>Computer Science</option>
+                    <option value="1">Information Technology</option>
+                    <option value="2">Computer System Engineering</option>
+                    <option value="3">Computer Science</option>
                 </select>
-                <select class="role" required>
+                <select class="role" id ="userRole" required>
                     <option value="" disabled selected>Role</option>
-                    <option>html</option>
-                    <option>css</option>
-                    <option>js</option>
+                    <option value="1"> html</option>
+                    <option value="2">css</option>
+                    <option value="3">js</option>
                 </select>
 
-                <input class="box3" placeholder="Biography" type="name" required>
+                <input class="box3" placeholder="Biography" id ="userBio" type="text" required>
                 <div class="checkboxes">
                     <input type="checkbox"> Add to bottom / or at index
                     <input class="box4 " type="text">
                 </div>
 
-                <input class="save" type="submit" value="Save">
+                <input class="save" onclick="setInformation()" type="submit" value="Save">
 
 
             </form>
@@ -68,7 +68,7 @@
                         </select>
 
                         <h2 class="vl"></h2>
-                        <input class="search" type="text" placeholder="search by name ...">
+                        <input class="search" type="text" onclick="" placeholder="search by name ...">
 
             </div>
             <div class="menu-bar2"></div>

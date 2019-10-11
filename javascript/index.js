@@ -17,7 +17,7 @@ function setInformation() {
 
 
     save(info);
-   arr.push(get());
+ 
     
 }
 

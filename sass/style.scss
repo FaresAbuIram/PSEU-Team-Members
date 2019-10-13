@@ -23,7 +23,7 @@ body {
         display: $fdisplay;
         justify-content: $cjustify;
         background-color: $bcolor;
-
+     
 
     }
 
@@ -246,7 +246,7 @@ body {
     .save{
         background: #2D89E6;
         border: none;
-
+     cursor: pointer;
         margin-top: 75px;
         height: 10%;
         margin-left: -25px;
@@ -255,9 +255,6 @@ body {
         font-size: 25px;
         color: white;
         
-    }
-    .short-story{
-
     }
     
 }

@@ -177,6 +177,7 @@ body {
   body .save {
     background: #2D89E6;
     border: none;
+    cursor: pointer;
     margin-top: 75px;
     height: 10%;
     margin-left: -25px;

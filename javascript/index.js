@@ -26,13 +26,9 @@ function formData(e) {
     document.getElementById("mojerofuser").innerHTML = info.user_mojer;
     document.getElementById("roleofuser").innerHTML = info.user_role;
     document.getElementById("bioo").innerHTML = info.bio;
-    s=document.createElement("div");
-    s=  document.getElementById('short-story');
-    
 
-    document.getElementById('short-story').style.display="flex";
-    document.getElementById("hh").innerHTML=s;
- 
+   document.getElementById("hh").appendChild( document.getElementById('short-story'));
+   document.getElementById('short-story').style.display="flex";
      clear();
 
 

@@ -11,11 +11,11 @@ let info = {
 function setInformation() {
     let mojer = document.getElementById("userMajor");
     let role = document.getElementById("userRole"); 
-info.name= document.getElementById("userName").value
-info.email= document.getElementById("userEmail").value
-info.user_mojer= mojer.options[mojer.selectedIndex].text
-info.user_role= role.options[role.selectedIndex].text
-info.bio=document.getElementById("userBio").value
+    info.name= document.getElementById("userName").value
+    info.email= document.getElementById("userEmail").value
+    info.user_mojer= mojer.options[mojer.selectedIndex].text
+    info.user_role= role.options[role.selectedIndex].text
+    info.bio=document.getElementById("userBio").value
 
 
 

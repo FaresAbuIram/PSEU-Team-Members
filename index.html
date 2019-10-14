@@ -23,21 +23,23 @@
                 <input class="box2" id="userEmail" placeholder="Email" type="email" required>
                 <select class="Major" id="userMajor" required>
                     <option value="" disabled selected>Major</option>
-                    <option value="1">Information Technology</option>
-                    <option value="2">Computer System Engineering</option>
-                    <option value="3">Computer Science</option>
+                    <option value="1">Computer Science  </option>
+                    <option value="2">Computer  Engineering</option>
+                    <option value="3">Information Technology </option>
+                    <option value="4">Information System  </option>
                 </select>
                 <select class="role" id="userRole" required>
                     <option value="" disabled selected>Role</option>
-                    <option value="1"> html</option>
-                    <option value="2">css</option>
-                    <option value="3">js</option>
+                    <option value="1"> Front-End Developer</option>
+                    <option value="2">Back-End Developer</option>
+                    <option value="3">Full-Stack Develope</option>
+                    <option value="3">UI/UX Designer</option>
                 </select>
 
-                <input class="box3" placeholder="Biography" id="userBio" type="text" required>
+                <textarea class="box3" placeholder="Biography" id="userBio" type="text" cols="40" rows="5" required></textarea>
                 <div class="checkboxes">
-                    <input type="checkbox"> Add to bottom / or at index
-                    <input class="box4 " type="text">
+                    <input id="add-to-bottom" type="checkbox"> Add to bottom / or at index
+                    <input id="add-index"class="box4 " type="text">
                 </div>
 
 
@@ -52,20 +54,23 @@
                 <div class="menu-bar">
                     <h5>SORTED BY</h5>
                     <select class="sorted">
-                        <option value="">A-Z</option>
+                        <option value="1">A-Z</option>
+                        <option value="2">Z-A</option>
                     </select>
                     <h2 class="vl"></h2>
                     <select class="major-bar">
                         <option value="">Major</option>
-                        <option>Information Technology</option>
-                        <option>Computer System Engineering</option>
-                        <option>Computer Science</option>
+                        <option value="1">Computer Science  </option>
+                        <option value="2">Computer  Engineering</option>
+                        <option value="3">Information Technology </option>
+                        <option value="4">Information System  </option>
                     </select>
                     <select class="role-bar">
                         <option value="">Role</option>
-                        <option>html</option>
-                        <option>css</option>
-                        <option>js</option>
+                        <option value="1"> Front-End Developer</option>
+                        <option value="2">Back-End Developer</option>
+                        <option value="3">Full-Stack Develope</option>
+                        <option value="3">UI/UX Designer</option>
                     </select>
 
                     <h2 class="vl"></h2>
@@ -73,7 +78,9 @@
 
 
                 </div>
-                <div class="menu-bar2"></div>
+                <div  class="menu-bar2">
+                    <div class="item" id="number-of-users" ></div>
+                </div>
 
             </div>
 

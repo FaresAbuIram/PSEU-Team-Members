@@ -28,7 +28,8 @@ body {
     margin-left: 30px;
     height: 850px;
     width: 1088px;
-    background-color: #F6F6F6; }
+    background-color: #F6F6F6;
+    overflow: scroll; }
   body .bar {
     justify-content: flex-start;
     display: flex;
@@ -91,6 +92,10 @@ body {
     width: 180px;
     border-radius: 10px;
     padding-left: 10px; }
+  body .item {
+    color: white;
+    font-size: 22px;
+    margin-top: 15px; }
   body .short-story {
     justify-content: flex-start;
     display: flex;
@@ -154,13 +159,15 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    text-align: center; }
+    text-align: center;
+    outline: none; }
   body h3 {
     color: #707070; }
   body .box1,
   body .box2,
   body .Major,
   body .role, body .box3 {
+    outline: none;
     margin: 5px;
     height: 60px;
     width: 90%;
@@ -169,7 +176,10 @@ body {
     padding-left: 10px; }
   body .box3 {
     height: 150px;
-    padding-bottom: 111px; }
+    padding-bottom: 111px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden; }
   body .checkboxes {
     text-align: start; }
   body .box4 {

@@ -20,7 +20,7 @@
 
                 <h3>Add new member</h3>
                 <input class="box1" id="userName" placeholder="Name" required>
-                <input class="box2" id="userEmail" placeholder="Email" type="email" required>
+                <input class="box2" id="userEmail" placeholder="Email" type="email" required >
                 <select class="Major" id="userMajor" required>
                     <option value="" disabled selected>Major</option>
                     <option value="1">Computer Science  </option>
@@ -53,24 +53,22 @@
             <div class="bar">
                 <div class="menu-bar">
                     <h5>SORTED BY</h5>
-                    <select class="sorted">
-                        <option value="1">A-Z</option>
+                    <select id="sort" class="sorted" onclick="sorting();" >
+                        <option  value="1">A-Z</option>
                         <option value="2">Z-A</option>
                     </select>
                     <h2 class="vl"></h2>
-                    <select class="major-bar">
-                        <option value="">Major</option>
-                        <option value="1">Computer Science  </option>
-                        <option value="2">Computer  Engineering</option>
-                        <option value="3">Information Technology </option>
-                        <option value="4">Information System  </option>
+                    <select id="major" class="major-bar" onclick="filterOfMojer();">
+                        <option value="1">Computer Science</option>
+                        <option value="2">Computer Engineering</option>
+                        <option value="3">Information Technology</option>
+                        <option value="4">Information System</option>
                     </select>
-                    <select class="role-bar">
-                        <option value="">Role</option>
-                        <option value="1"> Front-End Developer</option>
+                    <select id ="role-filter"class="role-bar" onclick="filterOfRole();">
+                        <option value="1">Front-End Developer</option>
                         <option value="2">Back-End Developer</option>
                         <option value="3">Full-Stack Develope</option>
-                        <option value="3">UI/UX Designer</option>
+                        <option value="4">UI/UX Designer</option>
                     </select>
 
                     <h2 class="vl"></h2>

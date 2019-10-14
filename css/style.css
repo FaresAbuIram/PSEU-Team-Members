@@ -96,8 +96,7 @@ body {
     display: flex;
     flex-direction: row;
     align-content: center;
-    margin-left: 20px;
-    display: none; }
+    margin-left: 20px; }
   body .short-info {
     justify-content: flex-start;
     display: flex;
@@ -148,6 +147,7 @@ body {
     height: 660px;
     width: 527px;
     border-radius: 5%;
+    outline: none;
     border: 1px solid black; }
   body form {
     margin-left: 25px;

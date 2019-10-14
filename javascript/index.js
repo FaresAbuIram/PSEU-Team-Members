@@ -1,5 +1,6 @@
 listOfUsers = new Array();// contain all users
 
+
 listOfUsers = get(); // get data fron local storage
 /*
 This class contain for information about all users
@@ -85,7 +86,7 @@ function printDate(array) {
         let obj = document.getElementById('information');
         obj.appendChild(htmlObject);
     }
-    document.getElementById('number-of-users').innerHTML = listOfUsers.length + " Items";
+    document.getElementById('number-of-users').innerHTML = listOfUsers.length + " ITEMS";
 
 }
 function sorting() {
@@ -129,24 +130,24 @@ function filterOfMojer() {
         if (listOfUsers[i].user_mojer == "Information System")
             arr5.push(listOfUsers[i]);
     }
-    console.log(arr2);
+    
     let sortedChoice = document.getElementById('major');
     let choice = sortedChoice.options[sortedChoice.selectedIndex].value;
     if (choice == 1) {
         printDate(arr2);
-        document.getElementById('number-of-users').innerHTML = arr2.length + " Items";
+        document.getElementById('number-of-users').innerHTML = arr2.length + " ITEMS";
     }
     else if (choice == 2) {
         printDate(arr3);
-        document.getElementById('number-of-users').innerHTML = arr3.length + " Items";
+        document.getElementById('number-of-users').innerHTML = arr3.length + " ITEMS";
     }
     else if (choice == 3) {
         printDate(arr4);
-        document.getElementById('number-of-users').innerHTML = arr4.length + " Items";
+        document.getElementById('number-of-users').innerHTML = arr4.length + " ITEMS";
     }
     else if (choice == 4) {
         printDate(arr5);
-        document.getElementById('number-of-users').innerHTML = arr5.length + " Items";
+        document.getElementById('number-of-users').innerHTML = arr5.length + " ITEMS";
     }
 }
 function filterOfRole() {
@@ -165,24 +166,24 @@ function filterOfRole() {
         if (listOfUsers[i].user_role == "UI/UX Designer")
             arr5.push(listOfUsers[i]);
     }
-    console.log(arr2);
+   
     let sortedChoice = document.getElementById('role-filter');
     let choice = sortedChoice.options[sortedChoice.selectedIndex].value;
     if (choice == 1) {
         printDate(arr2);
-        document.getElementById('number-of-users').innerHTML = arr2.length + " Items";
+        document.getElementById('number-of-users').innerHTML = arr2.length + " ITEMS";
     }
     else if (choice == 2) {
         printDate(arr3);
-        document.getElementById('number-of-users').innerHTML = arr3.length + " Items";
+        document.getElementById('number-of-users').innerHTML = arr3.length + " ITEMS";
     }
     else if (choice == 3) {
         printDate(arr4);
-        document.getElementById('number-of-users').innerHTML = arr4.length + " Items";
+        document.getElementById('number-of-users').innerHTML = arr4.length + " ITEMS";
     }
     else if (choice == 4) {
         printDate(arr5);
-        document.getElementById('number-of-users').innerHTML = arr5.length + " Items";
+        document.getElementById('number-of-users').innerHTML = arr5.length + " ITEMS";
     }
 }
 

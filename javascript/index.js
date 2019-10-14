@@ -20,7 +20,14 @@ function setInformation() {
 
 
     arr.push(info);
-   save(arr);
+   save(arr); 
+   arr.forEach(function(element) {
+     
+
+
+    
+  });
+   
 }
 
 function get() {
@@ -31,4 +38,4 @@ function save(arr) {
     const jsonString = JSON.stringify(arr);
     localStorage.setItem('arrlist', jsonString);
 }
-console.log(get());
+
